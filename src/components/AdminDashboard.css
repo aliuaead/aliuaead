@@ -1,0 +1,31 @@
+.station-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .station-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .remove-button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px; /* Increase size */
+    height: 30px; /* Increase size */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold; /* Make it bold */
+    font-size: 20px; /* Increase font size */
+  }
+  
+  .remove-button:hover {
+    background: darkred;
+  }
+  
